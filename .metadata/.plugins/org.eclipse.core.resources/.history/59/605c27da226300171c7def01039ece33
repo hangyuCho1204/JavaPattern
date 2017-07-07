@@ -1,0 +1,8 @@
+
+public class Single {
+	private static Single single = new Single();
+	private String han = "ÇÑ±Ô";
+	public static Single SingleTon(){
+		return single;
+	}
+}

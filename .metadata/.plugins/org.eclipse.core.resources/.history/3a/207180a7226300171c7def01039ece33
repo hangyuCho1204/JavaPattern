@@ -1,0 +1,13 @@
+
+public class SingleTon {
+	public static void main(String[] args) {
+		Single st = new Single();
+		System.out.println("st1 : " + st);
+		SingleTon ston = Single.SingleTon();
+		ston.test();
+	}
+	public void test(){
+		Single st = Single.SingleTon();
+		System.out.println("st2 : "+ st);
+	}
+}

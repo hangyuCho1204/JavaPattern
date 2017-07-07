@@ -1,0 +1,15 @@
+package SingleTon;
+
+public class Single {
+	private static Single single = new Single();
+	private String han = "ÇÑ±Ô";
+	public static Single SingleTon(){
+		return single;
+	}
+	public String getHan() {
+		return han;
+	}
+	public void setHan(String han) {
+		this.han = han;
+	}
+}

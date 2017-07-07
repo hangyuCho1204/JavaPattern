@@ -1,0 +1,11 @@
+
+public class SingleTon {
+	public static void main(String[] args) {
+		System.out.println("aa");
+		Single st = new Single();
+		st.hashCode();
+	}
+	public void test(){
+		Single st = new Single();
+	}
+}
