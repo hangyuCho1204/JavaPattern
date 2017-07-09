@@ -1,15 +1,18 @@
 package SingleTon;
 
 public class Single {
-	private static Single single = new Single();
-	private String han = "ÇÑ±Ô";
+	private static Single single;
+	private String test = "test";
 	public static Single SingleTon(){
+		if(single == null){
+			single = new Single();
+		}
 		return single;
 	}
-	public String getHan() {
-		return han;
+	public String getTest() {
+		return test;
 	}
-	public void setHan(String han) {
-		this.han = han;
+	public void setTest(String test) {
+		this.test = test;
 	}
 }
